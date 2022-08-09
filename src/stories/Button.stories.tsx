@@ -50,3 +50,9 @@ Medium.args = {
   size: "medium",
   label: "Button",
 };
+
+export const Disabled = Template.bind({});
+Disabled.args = {
+  disabled: true,
+  label: "Button",
+};
