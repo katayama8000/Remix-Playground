@@ -6,7 +6,14 @@ const initialValue =
 
 const CodeEditor = () => {
   const [value, onChange] = useState(initialValue);
-  return <RichTextEditor value={value} onChange={onChange} id="rte" />;
+  return (
+    <RichTextEditor
+      value={value}
+      onChange={onChange}
+      id="rte"
+      controls={[["codeBlock"]]}
+    />
+  );
 };
 
 export default CodeEditor;
