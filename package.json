@@ -18,6 +18,7 @@
     "@mantine/hooks": "^5.6.1",
     "@mantine/next": "^5.6.1",
     "@mantine/prism": "^5.6.1",
+    "@mantine/rte": "^5.6.1",
     "@tabler/icons": "^1.106.0",
     "clsx": "^1.2.1",
     "next": "12.3.1",
