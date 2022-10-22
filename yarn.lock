@@ -1481,6 +1481,13 @@
     "@radix-ui/react-scroll-area" "1.0.0"
     react-textarea-autosize "8.3.4"
 
+"@mantine/ds@^5.6.1":
+  version "5.6.1"
+  resolved "https://registry.yarnpkg.com/@mantine/ds/-/ds-5.6.1.tgz#f28ad18c30d8a5a6fb6d009958f0d559f2d4c1de"
+  integrity sha512-u7V3YkjVnwfo0+DDmu0mEhIgWhHTjRMnBQayMWMBtXkD7UU5LB53jpAUVWYYvctLVt0sRz6G3pjtPFSULfEyqQ==
+  dependencies:
+    "@mantine/utils" "5.6.1"
+
 "@mantine/hooks@^5.6.1":
   version "5.6.1"
   resolved "https://registry.yarnpkg.com/@mantine/hooks/-/hooks-5.6.1.tgz#36bd46b1f865621938527dbfc0f9add912408b69"
@@ -1493,6 +1500,14 @@
   dependencies:
     "@mantine/ssr" "5.6.1"
     "@mantine/styles" "5.6.1"
+
+"@mantine/prism@^5.6.1":
+  version "5.6.1"
+  resolved "https://registry.yarnpkg.com/@mantine/prism/-/prism-5.6.1.tgz#44f4d51a4af31c42fd8706db0e17730fc1a064fa"
+  integrity sha512-7soWrEHDWI8Bml/5sudMwWBJaYrUS48pfmKtzU9yzPnDGgyG/bm0ve6MCHVZEAbMAJQA9fjU6rYRUl4cH/rSGw==
+  dependencies:
+    "@mantine/utils" "5.6.1"
+    prism-react-renderer "^1.2.1"
 
 "@mantine/ssr@5.6.1":
   version "5.6.1"
@@ -2804,6 +2819,11 @@
   integrity sha512-XIB2XbzHTN6ieIjfIMV9hlVcfPU26s2vafYWQcZHWXHOxiaRZYEDKEwdl129Zyg50+foYV2jCgtrqSA6qNuNSA==
   dependencies:
     defer-to-connect "^1.0.1"
+
+"@tabler/icons@^1.106.0":
+  version "1.106.0"
+  resolved "https://registry.yarnpkg.com/@tabler/icons/-/icons-1.106.0.tgz#adde7692da6114ae803e6cb2ff9e51181e941a55"
+  integrity sha512-ldN/ucjGrtAE3YlU8ct8j13ZNbrUueEIqw3jVpGQ55eVztlqVBzGnZbF5kJyLJGmHtxVblyyhEWsRKutFbB21A==
 
 "@testing-library/dom@^8.3.0":
   version "8.19.0"
@@ -9435,6 +9455,11 @@ pretty-hrtime@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/pretty-hrtime/-/pretty-hrtime-1.0.3.tgz#b7e3ea42435a4c9b2759d99e0f201eb195802ee1"
   integrity sha512-66hKPCr+72mlfiSjlEB1+45IjXSqvVAIy6mocupoww4tBFE9R9IhwwUGoI4G++Tc9Aq+2rxOt0RFU6gPcrte0A==
+
+prism-react-renderer@^1.2.1:
+  version "1.3.5"
+  resolved "https://registry.yarnpkg.com/prism-react-renderer/-/prism-react-renderer-1.3.5.tgz#786bb69aa6f73c32ba1ee813fbe17a0115435085"
+  integrity sha512-IJ+MSwBWKG+SM3b2SUfdrhC+gu01QkV2KmRQgREThBfSQRoufqRfxfHUxpG1WcaFjP+kojcFyO9Qqtpgt3qLCg==
 
 private@^0.1.8:
   version "0.1.8"
