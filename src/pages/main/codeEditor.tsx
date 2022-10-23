@@ -22,7 +22,7 @@ const CodeEditor = () => {
           console.log(value);
         }}
       >
-        button
+        確認
       </Button>
     </div>
   );

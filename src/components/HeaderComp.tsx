@@ -1,5 +1,12 @@
 import { useState } from "react";
-import { createStyles, Header, Container, Group, Burger } from "@mantine/core";
+import {
+  createStyles,
+  Header,
+  Container,
+  Group,
+  Burger,
+  Title,
+} from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
 import { MantineLogo } from "@mantine/ds";
 
@@ -56,11 +63,11 @@ const useStyles = createStyles((theme) => ({
   },
 }));
 
-interface HeaderSimpleProps {
+interface HeaderCompProps {
   links: { link: string; label: string }[];
 }
 
-export function HeaderComp({ links }: HeaderSimpleProps) {
+export function HeaderComp({ links }: HeaderCompProps) {
   const [opened, { toggle }] = useDisclosure(false);
   const [active, setActive] = useState(links[0].link);
   const { classes, cx } = useStyles();
@@ -83,8 +90,8 @@ export function HeaderComp({ links }: HeaderSimpleProps) {
 
   return (
     <Header height={60} mb={120}>
-      <Container className={classes.header}>
-        <MantineLogo size={28} />
+      <Container className={classes.header} size="lg">
+        <Title order={3}>Hooks-Factory</Title>
         <Group spacing={5} className={classes.links}>
           {items}
         </Group>
