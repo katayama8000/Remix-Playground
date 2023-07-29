@@ -6,7 +6,7 @@ docker compose up -d
 http://localhost:4000にアクセスして`firebase`のエミュレーターが立ち上がる
 
 ## firebase
-- `firebasa`コンテナ内でシェル起動
+- `firebase`コンテナ内でシェル起動
 ```
 docker compose exec firebase bash
 ```
