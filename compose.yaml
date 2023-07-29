@@ -1,0 +1,16 @@
+version: "3"
+services:
+  firebase:
+    build: ./dockers/firebase
+    ports:
+      - 4000:4000 # Emulator Suite UI
+      - 8080:8080 # Cloud Firestore
+      - 9099:9099 # Auth
+      - 9199:9199 # Storage
+    volumes:
+      - ./:/firebase
+  gcloud:
+    build: ./dockers/gcloud
+    volumes:
+      - ./:/usr/src/app
+    tty: true
